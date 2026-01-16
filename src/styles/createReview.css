@@ -1,0 +1,142 @@
+.review-page {
+    background: #f2f4f3;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .review-container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* INFO LUGAR */
+  .place-summary {
+    display: flex;
+    gap: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 14px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .place-summary img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* LAYOUT */
+  .review-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+  
+  /* FORMULARIO */
+  .review-form {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 18px;
+  }
+  
+  .stars {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .review-form textarea {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 12px;
+    border: 1px solid #d1d5db;
+    margin-bottom: 1.5rem;
+    resize: none;
+  }
+  
+  /* IMÁGENES */
+  .images-box {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .images-box img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .upload {
+    flex: 1;
+    border: 2px dashed #d1d5db;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #1f7a6f;
+  }
+  
+  /* USUARIO */
+  .user-box {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .user-box img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  /* MINI LUGAR */
+  .place-mini {
+    display: flex;
+    gap: 0.8rem;
+    background: #f9fafb;
+    padding: 0.8rem;
+    border-radius: 12px;
+  }
+  
+  .place-mini img {
+    width: 70px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* SIDEBAR */
+  .review-sidebar {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 18px;
+    height: fit-content;
+  }
+  
+  .publish-btn {
+    width: 100%;
+    padding: 0.9rem;
+    background: linear-gradient(90deg, #1f7a6f, #3a8f7d);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    margin: 1.5rem 0;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .login-link span {
+    color: #1f7a6f;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  

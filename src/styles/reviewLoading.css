@@ -1,0 +1,81 @@
+.loading-page {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #f4f6f5, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loading-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* LOGO */
+  .loading-logo img {
+    width: 60px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .loading-logo h2 {
+    margin-bottom: 2rem;
+  }
+  
+  /* TEXTO */
+  .loading-text {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: #374151;
+  }
+  
+  /* PROGRESO */
+  .progress-wrapper {
+    position: relative;
+    width: 100%;
+    height: 12px;
+    background: #e5e7eb;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  /* BARRA */
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #1f7a6f, #8bcf9c);
+    animation: loading 3s infinite;
+    border-radius: 20px;
+  }
+  
+  /* LÁPIZ */
+  .pencil {
+    position: absolute;
+    top: -18px;
+    left:inc;
+    width: 40px;
+    height: 40px;
+    background: url("/img/pencil.png") no-repeat center;
+    background-size: contain;
+    animation: pencilMove 3s infinite;
+  }
+  
+  /* ANIMACIONES */
+  @keyframes loading {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes pencilMove {
+    0% {
+      left: -10px;
+    }
+    100% {
+      left: calc(100% - 30px);
+    }
+  }
+  

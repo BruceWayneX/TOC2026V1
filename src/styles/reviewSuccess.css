@@ -1,0 +1,158 @@
+.success-page {
+    background: #f4f6f5;
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .success-container {
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  /* HEADER */
+  .success-header {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .success-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* LUGAR */
+  .place-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+  }
+  
+  .place-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  
+  /* ESTADO */
+  .status-box {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: #e6f2ee;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+  
+  .check {
+    background: #1f7a6f;
+    color: white;
+    border-radius: 50%;
+    padding: 0.3rem 0.6rem;
+  }
+  
+  /* RESEÑA */
+  .review-published {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 18px;
+    margin-bottom: 2rem;
+  }
+  
+  .review-user {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .review-user img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  .review-text {
+    margin: 0.5rem 0 1rem;
+  }
+  
+  .review-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+  
+  .review-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .review-actions button {
+    background: none;
+    border: none;
+    color: #1f7a6f;
+    cursor: pointer;
+  }
+  
+  .review-actions .danger {
+    color: #b91c1c;
+  }
+  
+  /* SUGERENCIAS */
+  .suggestions {
+    margin-bottom: 2rem;
+  }
+  
+  .suggestions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  
+  .suggestion-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 14px;
+    text-align: center;
+  }
+  
+  .suggestion-card img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .suggestion-card button {
+    margin-top: 0.8rem;
+    width: 100%;
+    padding: 0.6rem;
+    background: #1f7a6f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  /* CTA FINAL */
+  .cta-box {
+    background: linear-gradient(135deg, #e6f2ee, #f4f6f5);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .cta-box button {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #1f7a6f;
+    color: white;
+    border: none;
+    border-radius: 14px;
+  }
+  

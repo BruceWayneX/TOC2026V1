@@ -1,0 +1,91 @@
+/* CONTENEDOR GENERAL */
+.search-page {
+    min-height: 100vh;
+    background: #f2f4f3;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+  
+  /* CARD PRINCIPAL */
+  .search-card {
+    background: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* BREADCRUMB */
+  .breadcrumb {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 1rem;
+  }
+  
+  /* BUSCADOR */
+  .search-bar-notfound {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+  
+  .search-bar-notfound input {
+    flex: 1;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 0.95rem;
+  }
+  
+  .search-bar-notfound button {
+    padding: 0.8rem 1.5rem;
+    background: #1f7a6f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* RESULTADO NO ENCONTRADO */
+  .notfound-box {
+    background: #f9fafb;
+    border-radius: 18px;
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .notfound-box .icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .notfound-box h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .notfound-box p {
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* BOTÓN AGREGAR */
+  .add-btn {
+    padding: 0.8rem 2rem;
+    background: linear-gradient(90deg, #1f7a6f, #3a8f7d);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* TEXTO AYUDA */
+  .help-text {
+    font-size: 0.9rem;
+    color: #6b7280;
+    text-align: center;
+  }
+  
